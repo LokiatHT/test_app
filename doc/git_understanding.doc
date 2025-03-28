@@ -1,0 +1,49 @@
+git add file_name.txt
+
+git status
+
+git commit -m "commit message"
+
+
+git log # history of commit
+
+
+git branch <new_branch_name>
+
+git checkout <branch_name>  # we move from one branch to another
+
+git branch # to check which branch we are on
+
+git merge <branch-name>
+
+
+git init : Used to initiate a blank repository. I creates a .git folder in the current folder in the current working directory
+.git folder will be an invisible folder, that can only be seen by enabling the setting or viewing the hidden files.
+
+
+git commit :used to save changes to local repo.The command helps you keep record of all the changes made. the changes the are made are added to the staging area.
+git add : The git add command isused to add changes to the staging area
+git status : is used to display the status of the current repository adn the staging area.
+git merge : is used to integrate different branches into a single branch.
+git push : is used to puch the local repository content to the remote repository.
+
+gut push -u origin master
+
+git pull : command is used to feth the new commit and merge them into the local branch.
+git clone
+git branch : is used to create , list , rename and delete branches
+git check-out : works togther with the git branch command. The command enables the navigation between the branches.
+
+
+git config : is used to set configuration like name, email id etc. This should be provided as soon sa git is installed, since it is usedby git at every commit.
+Create git repository with name "test_app"
+
+git config <option> <value>
+
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+git config --list
+
+git diff : used to show differences between the changes made on a file.
+
+git log : used to view the privous commits that have taken place in the Git
